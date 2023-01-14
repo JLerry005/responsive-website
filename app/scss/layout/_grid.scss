@@ -34,7 +34,6 @@
     }
 
     &__sidebar {
-        background-color: hsl(300, 100%, 30%);
 
         @include u.breakpoint-down(medium) {
             text-align: center;
@@ -45,6 +44,11 @@
             text-align: right;
             border-radius: 1.25em;
         }
+    }
+
+    &__widget {
+        padding: u.rem(16);
+
     }
 
 }

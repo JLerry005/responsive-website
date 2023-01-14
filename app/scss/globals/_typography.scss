@@ -4,13 +4,11 @@ h1,
 h2,
 h3 {
     font-weight: 700;
-    letter-spacing: u.rem(1.5);
     margin-top: 0;
 }
 
 h1 {
     font-size: clamp(u.rem(26), u.rem(16) + 2vw, u.rem(40));
-    // font-size: clamp(1.75em, 1em + 2vw, 2.5em);
 }
 
 h2 {
